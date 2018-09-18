@@ -15,6 +15,9 @@ namespace SoftwareCalc
         public MainForm()
         {
             InitializeComponent();
+
+            BaseUtils.Eval ev = new BaseUtils.Eval();
+
         }
     }
 }
