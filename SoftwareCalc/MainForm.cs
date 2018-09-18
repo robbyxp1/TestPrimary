@@ -16,7 +16,7 @@ namespace SoftwareCalc
         {
             InitializeComponent();
 
-           // BaseUtils.Eval ev = new BaseUtils.Eval();
+            BaseUtils.Eval ev = new BaseUtils.Eval();
 
         }
     }
