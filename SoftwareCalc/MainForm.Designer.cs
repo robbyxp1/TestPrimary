@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.buttonExt1 = new ExtendedControls.ButtonExt();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -39,11 +40,21 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
+            // buttonExt1
+            // 
+            this.buttonExt1.Location = new System.Drawing.Point(189, 13);
+            this.buttonExt1.Name = "buttonExt1";
+            this.buttonExt1.Size = new System.Drawing.Size(75, 23);
+            this.buttonExt1.TabIndex = 1;
+            this.buttonExt1.Text = "buttonExt1";
+            this.buttonExt1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(891, 557);
+            this.Controls.Add(this.buttonExt1);
             this.Controls.Add(this.richTextBox1);
             this.Name = "MainForm";
             this.Text = "Form1";
@@ -54,6 +65,7 @@
         #endregion
 
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private ExtendedControls.ButtonExt buttonExt1;
     }
 }
 
