@@ -4,3 +4,6 @@
 [submodule "ExtendedControls"]
 	path = ExtendedControls
 	url = https://github.com/EDDiscovery/ExtendedControls.git
+[submodule "ActionLanguage"]
+	path = ActionLanguage
+	url = https://github.com/EDDiscovery/ActionLanguage.git
